@@ -1,3 +1,7 @@
+Plan here is to be able to add a 'library' of plants and create a schedule for their care. I want to create functionality to export calendar data in order to have calendar reminders of when to water/ fertilize things.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.App{
+  font-family: Arial;
+  background-color: #9fa877
+}
+h1{
+  background-color: #75652b;
+  color: #d3d3b7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.plant {
+  border: 2px solid slategray;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  background-color: #d3d3b7;
+}
+.plant img {
+  height: 400px;
+  width: 200px;
+  border: 2px solid slategray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.plants-list {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* colours 
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+#9fa877 light green
+#75652B green-brown
+#1e1308 Dark Brown
+#9e8f5e light brown
+#d3d3b7 almost white brown
+*/

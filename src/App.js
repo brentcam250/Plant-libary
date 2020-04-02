@@ -1,26 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PlantsList from './PlantsList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Plant Library!</h1>
+
+        <PlantsList plants={testPlants} />
+
     </div>
   );
 }
+
+
+const testPlant ={
+  id: 1,
+  commonName: 'Snake Plant',
+  ScientificName: 'Dracaena trifasciata',
+  img: './img/snake-plant.jpg',
+  waterSchedDays: 21,
+  fertilizer: null,
+  fertilizerSchedWeeks: null,
+  sun: 'full' 
+}
+
+const testPlant2 = {
+  id: 2,
+  commonName: 'zz Plant',
+  ScientificName: 'Zamioculcas',
+  img: './img/zz-plant.jpg',
+  waterSchedDays: 14,
+  fertilizer: 'some stuff',
+  fertilizerSchedWeeks: 4,
+  sun: 'partial'
+}
+
+const testPlants = [testPlant, testPlant2];
 
 export default App;
