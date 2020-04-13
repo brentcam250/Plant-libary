@@ -1,28 +1,31 @@
-.App{
+/* .App{
   font-family: Arial;
   background-color: #9fa877
-}
-h1{
-  background-color: #75652b;
-  color: #d3d3b7;
-}
+} */
 
-.plant {
+/* .plant {
   border: 2px solid slategray;
   padding: 10px;
   margin: 5px;
   display: inline-block;
   background-color: #d3d3b7;
-}
-.plant img {
-  height: 400px;
-  width: 200px;
-  border: 2px solid slategray;
-}
-
+} */
 .plants-list {
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  wrap: wrap;
 }
+.plants-list-item{
+  display: inline;
+}
+
+
+/* .plants-list-grid-container{
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  justify-content: center;
+} */
 
 /* colours 
 

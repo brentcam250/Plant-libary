@@ -1,13 +1,18 @@
 import React from 'react';
 import './App.css';
+import './tailwind.generated.css';
 import PlantsList from './PlantsList';
+import NavBar from './NavBar';
+
 
 function App() {
   return (
-    <div className="App">
-        <h1>Plant Library!</h1>
-
-        <PlantsList plants={testPlants} />
+    <div className="bg-green-200">
+        <h1 className='text-2xl p-4 font-bold text-gray-700'>Plant Library!</h1>
+        <NavBar />
+        <div className='plants-list-grid-container'>
+          <PlantsList plants={testPlants} />
+        </div>
 
     </div>
   );
@@ -36,6 +41,8 @@ const testPlant2 = {
   sun: 'partial'
 }
 
-const testPlants = [testPlant, testPlant2];
+
+
+const testPlants = [testPlant, testPlant2, testPlant, testPlant2, testPlant, testPlant2];
 
 export default App;

@@ -11,7 +11,7 @@ function PlantsList ({ plants }) {
     return(
         <ul className='plants-list'>
             {plants.map(plant=>
-            <li key={plant.id} >
+            <li key={plant.id} className='plants-list-item'>
                 <Plant plant={plant} />
                 </li>
             )}
