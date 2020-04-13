@@ -1,6 +1,6 @@
 import React from 'react';
 import snakePlant from './img/snake-plant.jpg';
-import zzPlant from './img/zz-plant.jpg';
+//import zzPlant from './img/zz-plant.jpg';
 import PropTypes from 'prop-types';
 
 

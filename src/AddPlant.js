@@ -6,8 +6,8 @@ function AddPlant () {
 
     return(
         <form>
-        <h3>Add a new Plant:</h3>
-        <br />
+            <h3>Add a new Plant:</h3>
+            <br />
             <label htmlFor="common-name">
                 Common Name:<br />
                 <input type='text' name ='common-name'></input>
@@ -69,7 +69,7 @@ function AddPlant () {
             <br /><br />
             <input type="submit" value='Submit'/>
         </form>
-    )
+    );
 }
 
 

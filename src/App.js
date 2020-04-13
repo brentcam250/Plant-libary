@@ -3,6 +3,8 @@ import './App.css';
 import './tailwind.generated.css';
 import PlantsList from './PlantsList';
 import NavBar from './NavBar';
+import AddPlant from './AddPlant';
+
 
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
         <div className='plants-list-grid-container'>
           <PlantsList plants={testPlants} />
         </div>
-
+      
     </div>
   );
 }
