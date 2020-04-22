@@ -14,12 +14,21 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  wrap: wrap;
+  align-items: stretch;
 }
 .plants-list-item{
   display: inline;
 }
 
+.plants-list-item:hover {
+  padding: 5px;
+}
+.add-plant {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min-max(180px, 1fr));
+  align-items: stretch;
+}
 
 /* .plants-list-grid-container{
   display: grid;

@@ -3,7 +3,7 @@ import './App.css';
 import './tailwind.generated.css';
 import PlantsList from './PlantsList';
 import NavBar from './NavBar';
-import AddPlant from './AddPlant';
+//import AddPlant from './AddPlant';
 
 
 
